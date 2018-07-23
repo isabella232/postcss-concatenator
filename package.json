@@ -1,0 +1,48 @@
+{
+  "name": "@mapbox/postcss-concatenator",
+  "version": "0.1.0",
+  "description": "A very simple PostCSS runner that concatenates stylesheets from the file system or URLs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stickler lint",
+    "format": "stickler format",
+    "watch": "stickler watch",
+    "precommit": "stickler precommit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/postcss-concatenator.git"
+  },
+  "keywords": [
+    "postcss",
+    "concat",
+    "concatenate",
+    "runner",
+    "css",
+    "stylesheets"
+  ],
+  "author": "Mapbox",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mapbox/postcss-concatenator/issues"
+  },
+  "homepage": "https://github.com/mapbox/postcss-concatenator#readme",
+  "devDependencies": {
+    "@mapbox/stickler": "^0.2.5",
+    "del": "^3.0.0",
+    "fast-glob": "^2.2.2",
+    "jest": "^23.4.1",
+    "tempy": "^0.2.1"
+  },
+  "dependencies": {
+    "got": "^8.3.2",
+    "is-absolute-url": "^2.1.0",
+    "pify": "^3.0.0",
+    "postcss": "^7.0.1",
+    "postcss-url": "^7.3.2"
+  }
+}
